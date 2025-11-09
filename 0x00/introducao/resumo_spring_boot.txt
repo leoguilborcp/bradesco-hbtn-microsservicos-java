@@ -1,0 +1,4 @@
+Spring Boot é um framework do ecossistema String criado para facilitar a criação de microsserviços. Entre os beneficios do uso estão a gerencia de configurações iniciais, auxilio nas tarefas de infraestrutura, mantendo um servidor embutido.
+Utilizando gerenciadores de dependencia como gradle e maven, podemos adicionar novas dependencias para trabalhar com o spring boot. Basta inluir no pom.xml, no caso do maven, ou no gradle.properties, no caso do gradle.
+Para uso do framework a melhro ide é o intellij por ter uma gama de ferramentas mais completa para as necessidades de projetos java, mas tambem funcionam muito bem em alternativas como eclipse e vscode.
+Para facilitar ainda mais a criação de um projeto Spring Boot podemos utilizar a ferramenta Spring Initializr, uma ferramenta para criação de boilerpaltes de projetos com spring boot, já adicionando suas dependencias e necessidades inciais e podendo complementar as dependencias gerais conforme suas necessidades.
