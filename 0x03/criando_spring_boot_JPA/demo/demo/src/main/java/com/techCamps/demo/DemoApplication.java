@@ -1,13 +1,13 @@
-package com.example.demo;
+package com.techCamps.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SongApiApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SongApiApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
