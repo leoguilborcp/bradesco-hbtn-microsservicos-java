@@ -21,7 +21,7 @@ public class ExceptionService {
     ResponseEntity<UserNameException> handleException(UserNameException err){
         UserErrorResponse uer = new UserErrorResponse();
         uer.setStatus(HttpStatus.BAD_REQUEST.value()); 
-        uer.setMessage("You have entered invalid ID");
+        uer.setMessage("You have entered NAME "+err.getMessage()+" invalid.");
         return new ResponseEntity(uer,HttpStatus.BAD_REQUEST); 
     }
 
@@ -29,7 +29,7 @@ public class ExceptionService {
     ResponseEntity<UserIdException> handleException(UserIdException err){
         UserErrorResponse uer = new UserErrorResponse();
         uer.setStatus(HttpStatus.BAD_REQUEST.value()); 
-        uer.setMessage("You have entered invalid CPF");
+        uer.setMessage("You have entered ID "+err.getMessage()+" invalid.");
         return new ResponseEntity(uer,HttpStatus.BAD_REQUEST); 
     }
 
